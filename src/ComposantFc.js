@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ComposantFc() {
+function ComposantFc(props) {
     //js
   return (
     <div>
         {/* jsx */}
-      hello hello
+      hello hello {props.nom} {props.prenom}
     </div>
   )
 }

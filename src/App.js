@@ -115,7 +115,7 @@ function App() {
           <input onChange={(e) => setAge(e.target.value)}></input>
         </div>
       </header>
-      <ComposantFc />
+      <ComposantFc nom="bilel" prenom="ben foulen"/>
     </div>
   ); //jsx
 }
